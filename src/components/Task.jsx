@@ -1,5 +1,6 @@
 import React from "react";
 import '../stylesheets/task.css'
+import { AiFillDelete } from "react-icons/ai";
 
 function Task ({ text }){
     return (
@@ -7,8 +8,8 @@ function Task ({ text }){
             <div className="text-task">
                 {text}
             </div>
-            <div className="task-icon">
-                Delete
+            <div className="task-container-icon">
+                <AiFillDelete className="task-icon"/>
             </div>
         </div>
     );
