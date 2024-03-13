@@ -2,9 +2,9 @@ import React from "react";
 import '../stylesheets/task.css'
 import { AiFillDelete } from "react-icons/ai";
 
-function Task ({ text }){
+function Task ({ text, completed }){
     return (
-        <div className="task-container">
+        <div className={completed ? 'task-container completed' : 'task-container'}>
             <div className="text-task">
                 {text}
             </div>
