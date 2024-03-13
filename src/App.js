@@ -1,6 +1,6 @@
 import './App.css';
 import Head from './components/Head';
-import Form from './components/Form';
+import ListTask from './components/ListTask';
 
 function App() {
   return (
@@ -8,7 +8,7 @@ function App() {
       <Head></Head>
       <div className='principal-task'>
         <h1>My Tasks</h1>
-        <Form />
+        <ListTask />
       </div>
     </div>
   );
